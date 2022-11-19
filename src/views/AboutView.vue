@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    {{ /*TODO: implementar esto */}}
+    <h1> This website will let you browse Spotify as if it were the original Spotify web app. </h1>
   </div>
 </template>
 
