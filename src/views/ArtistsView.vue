@@ -28,7 +28,7 @@ export default {
 <template>
   <div class="main">
     <div class="albums-container">
-      {{/*TODO: Mandar los datos del album. Mira el componente para ver que se manda. Recuerda iterar porque son varios albums*/ }}
+      {{/*TODO: Mandar los datos del album. Mira el componente para ver que se manda. Recuerda iterar porque son varios albus*/ }}
       <ArtistAlbumComponent
       ></ArtistAlbumComponent>
     </div>

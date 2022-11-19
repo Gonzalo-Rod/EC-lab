@@ -15,8 +15,16 @@ export default {
       this.currentTracks = tracks.tracks.items;
     },
     toMinutesAndSeconds(millis) {
-      /* TODO: implementar esta funcion */
-      return "";
+      let temp = millis/60000;
+      let min = Math.floor(temp);
+      let sec = ((millis % 60000) / 1000).toFixed(0);
+      if (sec < 10){
+        return min + ":" +  '0'  + sec;
+      }
+      else{
+        return min + ":" + '' + sec;
+      }
+      
     },
   },
   data() {
